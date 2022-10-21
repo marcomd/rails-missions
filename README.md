@@ -75,6 +75,21 @@ The successful response should be JSON in the following structure:
 
 The main purpose of these tasks is to see that you know the rails stack and get a glimpse of your coding style.
 
+### Docker
+
+You can use the docker setup to start the server with:
+
+```
+make server
+```
+
+or
+
+```
+make server-rebuild
+```
+if you need to rebuild the docker image.
+
 ### Hints
 
 * tackle each mission one after another
