@@ -8,10 +8,16 @@ RSpec.describe Api::V1::FibonacciController, type: :controller do
     context "when parameters are present" do
       let(:params) { { n: 10 } }
 
-      it do
+      specify do
         subject
         expect(json["result"]).to eq 55
         expect(json["runtime"].to_s).to match /\d*\.\d*/
+      end
+
+      it do
+        expect do
+          subject
+        end.to change(Fibonacci, :count).by(1)
       end
     end
 
@@ -21,6 +27,12 @@ RSpec.describe Api::V1::FibonacciController, type: :controller do
       it do
         subject
         expect(json).to eq({ "error" => "Please set the param 'n'" })
+      end
+
+      it do
+        expect do
+          subject
+        end.to_not change(Fibonacci, :count)
       end
     end
   end

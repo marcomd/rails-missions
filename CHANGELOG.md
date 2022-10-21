@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## mission2 - Added Fibonacci model 21/10/2022
+
+- Added Fibonacci model
+- The controller Fibonacci#create now adds a new record to Fibonacci table
+- The mission2 is now completed
+
 ## mission1 - Fibonacci controller now return a real result 21/10/2022
 
 - Fibonacci POST requests now involve fibonacci service
