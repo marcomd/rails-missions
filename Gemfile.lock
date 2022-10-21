@@ -168,6 +168,7 @@ GEM
       rspec-mocks (~> 3.11)
       rspec-support (~> 3.11)
     rspec-support (3.11.1)
+    simple_command (1.0.1)
     sqlite3 (1.5.3-arm64-darwin)
     sqlite3 (1.5.3-x86_64-darwin)
     sqlite3 (1.5.3-x86_64-linux)
@@ -193,6 +194,7 @@ DEPENDENCIES
   rails (~> 7.0.4)
   responders (~> 3.0.1)
   rspec-rails
+  simple_command (~> 1.0.1)
   sqlite3 (~> 1.4)
   tzinfo-data
 

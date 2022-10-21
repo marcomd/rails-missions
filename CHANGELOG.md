@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## mission1 - Added fibonacci algorithm service 21/10/2022
+
+- Added service that applies fibonacci algorithm
+- Added simple command gem to standardize and make simpler the use of services
+
 ## mission1 - Controller created 21/10/2022
 
 - The controllers fibonacci is created
