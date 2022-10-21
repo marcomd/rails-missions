@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## mission3 - Added Fibonacci#index 21/10/2022
+
+- Added Fibonacci#index which returns maximum 10 records
+- Bugfix created_at, now is a datetime
+- The mission3 is now completed
+
 ## mission2 - Added Fibonacci model 21/10/2022
 
 - Added Fibonacci model

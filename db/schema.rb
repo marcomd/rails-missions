@@ -15,7 +15,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_21_171427) do
     t.integer "value"
     t.integer "result", limit: 8
     t.decimal "runtime"
-    t.time "created_at"
+    t.datetime "created_at"
   end
 
 end
