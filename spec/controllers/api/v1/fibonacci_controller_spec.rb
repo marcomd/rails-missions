@@ -10,7 +10,8 @@ RSpec.describe Api::V1::FibonacciController, type: :controller do
 
       it do
         subject
-        expect(json).to eq({"id"=>1, "result"=>55, "runtime"=>67, "value"=>10})
+        expect(json["result"]).to eq 55
+        expect(json["runtime"].to_s).to match /\d*\.\d*/
       end
     end
 

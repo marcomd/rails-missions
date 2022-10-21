@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## mission1 - Fibonacci controller now return a real result 21/10/2022
+
+- Fibonacci POST requests now involve fibonacci service
+  - Fibonacci POST requests now involve the fibonacci service to return the result of the algorithm
+    Previously a fake result was returned.
+  - The mission1 is now completed
+
 ## mission1 - Added fibonacci algorithm service 21/10/2022
 
 - Added service that applies fibonacci algorithm
